@@ -3,27 +3,26 @@
     <head>
         <meta charset="UTF-8" />
         <title> Etch-A-Sketch</title>
-        <link rel="stylesheet" href="style.com">
+        <link rel="stylesheet" href="style.css">
         <script src="index.js"></script>
     </head>
     <body>
-        <h1 >Etch-A-Sketch></h1>
+        <h2 >Etch-A-Sketch</h2>
         <div class="header">
-            <h4> Select the size</h4>
-            <button class="btn">Select</button></div>
-        <div class="container">
-
-        </div>
-        <div class="footer">
+            <h3> Select the size</h3>
+            <button class="btn" value="#333333">Select</button></div>
+        <div class="container"></div>
+        <div class="btn-btn">
             <button class="btn1">Black</button>
             <button class="btn2">Rainbow</button>
             <button class="btn3">Eraser</button>
             <button class="btn4">Reset</button>
+            <div id="sizeValue" class="size-value">16 x 16</div>
+            <input id="sizeSlider" type="range" value="16" min="1" max="64" />
+        </div>
+        <div class="footer">
             <p>
-                Copyright ©
-                <script>
-                  document.write(new Date().getFullYear())
-                </script>
+                Copyright © by hh
               </p>
         </div>
         
